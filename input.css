@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme{
+    --color-tahiti: #3ab7bf;
+    --color-LiGr:  #C2C2C2;
+    --breakpoint-wide: 65.625rem;
+}
