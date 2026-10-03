@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="main page" >
+    <meta name="main page">
     <meta name="robots" content="index,follow"><!-- All Search Engines spiders-->
     <title>Main page</title><!--display name on tab-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,34 +13,34 @@
 <body>
 
     <div class="min-h-full flex flex-col"><!--creates a flexbox style wrapper-->
-        <header class="flex flex-row flex-wrap border-b">
-            <h1 class="text-[35px] w-[20%]">Student portfolio_v1</h1>
-            <div class="w-[20%]"></div>
-            <a class="w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[20px]  py-2  rounded" href="#">Home</a>
-            <a class="w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[20px]  py-2  rounded" href="#">Projects</a>
-            <a class="w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[20px]  py-2  rounded" href="#">Contact</a>
-            <div class="w-[20%] "></div>
-            <a class="w-[5%] self-center bg-white hover:bg-tahiti text-green-400 font-sans text-[20px] px-4 py-2  rounded" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <button class="w-[20%] self-center bg-white hover:bg-tahiti text-green-400 font-sans text-[20px] px-4 py-2 rounded" href="#">CV_download</button>
+        <header class="flex flex-col md:flex-row flex-wrap border-b">
+            <h1 class="text-[24px] md:text-[35px] w-full md:w-[20%]">Student portfolio_v1</h1>
+            <div class="hidden md:block md:w-[20%]"></div>
+            <a class="w-full md:w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[16px] md:text-[20px]  py-2  rounded" href="#">Home</a>
+            <a class="w-full md:w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[16px] md:text-[20px]  py-2  rounded" href="#">Projects</a>
+            <a class="w-full md:w-[5%] self-center text-center bg-white hover:bg-tahiti text-black underline font-sans text-[16px] md:text-[20px]  py-2  rounded" href="#">Contact</a>
+            <div class="hidden md:block md:w-[20%] "></div>
+            <a class="w-full md:w-[5%] self-center text-center bg-white hover:bg-tahiti text-green-400 font-sans text-[16px] md:text-[20px] px-4 py-2  rounded" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <button class="w-full md:w-[20%] self-center bg-white hover:bg-tahiti text-green-400 font-sans text-[16px] md:text-[20px] px-4 py-2 rounded" href="#">CV_download</button>
         </header>
         <main>
-            <div class="grid grid-cols-[70%_30%] pt-[100px] pb-[40px]">
-                <div class="pl-6">
+            <div class="grid grid-cols-1 md:grid-cols-[70%_30%] px-4 md:px-0 pt-[50px] md:pt-[100px] pb-[40px]">
+                <div class="pl-0 md:pl-6" >
                     <p>Selected works 2025-26</p>
-                    <h1 class="text-9xl">
+                    <h1 class="text-4xl md:text-5xl wide:text-9xl">
                         Architectural integrity & spatial logic.
                     </h1>
                 </div>
-                <div class="pt-[50px] pr-6">
+                <div class="pt-6 md:pt-[50px] pr-0 md:pr-6">
                     <p class="border-l p-6">A focused investigation into modular structure and technical precision within high density urban environments designed for clarity, authority and high performance utility.</p>
-                    <div class="flex flex-row gap-4 p-4">
+                    <div class="flex flex-col md:flex-row gap-4 p-4">
                         <button class="flex-1 bg-black hover:bg-blue-700 text-white font-sans text-[20px] px-4 py-2 rounded">Explore portfolio</button>
                         <button class="flex-1 self-center bg-LiGr hover:bg-blue-700 text-black font-sans text-[20px] px-4 py-2 rounded">Our philosophy</button>
                     </div>
                 </div>
             </div>
             </div>
-            <div class="grid grid-cols-4 divide-x border-b border-t">
+            <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 border-b border-t">
             <div class="m-6">
                 <p>Projects completed</p>
                 <h1>42+</h1>
@@ -58,8 +58,8 @@
                 <h1>03</h1>
             </div>
         </div>
-        <div class="flex flex-row p-6 gap-6">
-            <div class="w-[50%] h-[500px] bg-[url('Emblem.png')] bg-cover bg-center flex flex-col justify-end p-6 text-white">
+        <div class="flex flex-col md:flex-row p-6 gap-6">
+            <div class="w-full md:w-[50%] h-[300px] md:h-[500px] bg-[url('Emblem.png')] bg-cover bg-center flex flex-col justify-end p-6 text-white">
                 <p class="text-sm text-LiGr">Project 001</p>
                 <h3 class="text-4xl font-bold">The Monolith Pavilion</h3>
                 <p class="text-LiGr mt-2">Exploration of concrete as a fluid yet structural element in public transit hubs.</p>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-row gap-6 flex-1">
+                <div class="flex flex-col md:flex-row gap-6 flex-1">
                     <div class="bg-LiGr flex flex-col flex-1 p-6">
                         <h6 class="text-xs text-gray-500">LAB ARCHIVE</h6>
                         <h5 class="font-bold">Shadow Studies</h5>
@@ -87,7 +87,7 @@
                             <img class="w-[100px] h-auto" src="Emblem.png" alt="emblem">
                         </div>
                     </div>
-                    <div class="w-[50%] bg-black flex flex-col justify-between p-6">
+                    <div class="w-full md:w-[50%] bg-black flex flex-col justify-between p-6">
                         <h5 class="text-white text-xl font-bold">Join the architectural dialogue.</h5>
                         <button class="self-start px-4 py-2 text-white text-sm border border-white rounded hover:bg-white hover:text-black">Submit inquiry</button>
                     </div>
